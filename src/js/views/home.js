@@ -1,15 +1,17 @@
 import React from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
-import "../../styles/home.css";
 
-export const Home = () => (
-	<div className="text-center mt-5">
-		<h1>Hello Rigo!</h1>
-		<p>
-			<img src={rigoImage} />
-		</p>
-		<a href="#" className="btn btn-success">
-			If you see this green button, bootstrap is working
-		</a>
-	</div>
-);
+
+
+export const Home = () => {
+	return (
+		<div className="container p-5">
+			
+					<img
+						className="d-block w-100"
+						src="https://res.cloudinary.com/dlb0fs0l8/image/upload/v1655696318/Star-Wars-PNG-Clipart_mnbvjm.png"
+						alt="homeimg"
+					/>
+				
+		</div>
+	);
+};
